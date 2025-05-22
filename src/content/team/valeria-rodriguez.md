@@ -3,7 +3,22 @@ slug: valeria-rodriguez
 name: Valeria Rodriguez
 title: Legal Collection Specialist
 image: /src/assets/images/valeria-rodriguez.jfif
-
+email: test@test.com
+phone: "123-456-7890"
+education:
+  - Test Law School
+  - Test University
+barAdmissions:
+  - Test State Bar
+experience:
+  - Test experience line 1
+  - Test experience line 2
+practiceFocus:
+  - Test Practice Area A
+  - Test Practice Area B
+publications:
+  - Test Publication One
+  - Test Publication Two
 
 ---
 

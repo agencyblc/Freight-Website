@@ -36,7 +36,7 @@ const paralegals = [
   {
     name: 'Magaly Sanchez',
     title: 'Paralegal',
-    image: '/src/assets/images/magaly-sanchez.jfif',
+    image: '/src/assets/images/magaly.jfif',
     slug: 'magaly-sanchez',
     specialties: ['Case Management', 'Legal Research']
   },
@@ -165,6 +165,12 @@ const paralegals = [
                     </span>
                   ))}
                 </div>
+                   <a 
+                  href={`/team/${paralegal.slug}`} 
+                  class="inline-block bg-blue-800 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors"
+                >
+                  Learn More
+                </a>
               </div>
             </div>
           ))}
